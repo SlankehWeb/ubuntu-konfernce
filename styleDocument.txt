@@ -1,0 +1,19 @@
+partial til farver
+ - skal indholde alle farver fra design guide
+ - skal navn gives så det er nemt at skelne mellem core, tints ect
+
+partial til fonts
+ - skal indholde mixin til at importer de forskellig fonts
+ 
+partial til nav
+ - skal indholde mixin med scss styling [current active skal laves ved siden af i main scss]
+
+partial til footer
+ - skal inholde mixin med scss styling 
+
+partial til event info
+ - skal indholde mixin med scss styling
+ - der skal laves  mixin for de for skellig elementer og sections
+
+partial til IOT icons
+ - skal inholde mixin med scss styling
