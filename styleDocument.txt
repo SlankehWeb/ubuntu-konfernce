@@ -19,7 +19,7 @@ partial til IOT icons
  - skal inholde mixin med scss styling
 
 sizeing af elementer og placering
-   - er op til den der laver siden med mindre andet står
+   - er op til den der laver siden med mindre andet står i design guiden
 
 brug af farver
    - refere til design guiden 
