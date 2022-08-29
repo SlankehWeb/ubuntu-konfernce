@@ -29,5 +29,5 @@ js skal skabe elementer på siden med billed af de forskellig talkers
 
 kode beskrivelsen
     - lav kode der genre billed på siden
-    - kode til at style billeder
+
     
