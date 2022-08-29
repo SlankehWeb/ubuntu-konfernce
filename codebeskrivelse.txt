@@ -1,4 +1,4 @@
-en form med email, navn og submit button:
+form med email, navn og submit button:
 
 submit skal tjek om email matcher kravene
  -vis ja vis en takke besked
@@ -23,11 +23,15 @@ Kode beskrivelsen:
             - style form ud fra style guiden'
 
 
-event card skabelse på siden:
+event info card skabelse på siden:
 
-js skal skabe elementer på siden med billed af de forskellig talkers
+   js skal skabe elementer på siden med billed af de forskellig talkers
 
-kode beskrivelsen
+   kode beskrivelsen
     - lav kode der genre billed på siden
 
-    
+nyheds boks:
+   skal inholde en headline, body text og et billed
+
+   kode beskrivelsen 
+    - den skal skabe de over skrevne elementer
