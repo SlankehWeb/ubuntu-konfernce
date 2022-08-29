@@ -1,0 +1,33 @@
+en form med email, navn og submit button:
+
+submit skal tjek om email matcher kravene
+ -vis ja vis en takke besked
+ -vis nej frem vis styling og tekst/icon ifølge design guide
+
+Kode beskrivelsen:
+    - variabler 
+        - navn --> string
+        - email --> string
+        - Button --> element skal have id
+        - takkebesked --> string
+        - all input og button skal definers some const
+
+    - funktioner
+        - eval()
+            - om mailen er rigt
+                - hvis ja lav takke besked
+                - vis nej lav tekst/icon ifølge design guide
+        - Confirm()
+            - skriv takkebesked til DOM
+        - Error()
+            - style form ud fra style guiden'
+
+
+event card skabelse på siden:
+
+js skal skabe elementer på siden med billed af de forskellig talkers
+
+kode beskrivelsen
+    - lav kode der genre billed på siden
+    - kode til at style billeder
+    
