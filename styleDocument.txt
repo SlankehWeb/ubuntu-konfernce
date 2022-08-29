@@ -6,47 +6,82 @@ partial til fonts
  - skal indholde mixin til at importer de forskellig fonts [refere til design guide på fonts]
 
 partial til nav
- - skal indholde mixin med scss styling [current active skal laves ved siden af i main scss] [refere til design guide på navigation]
+ - skal indholde mixin med scss styling [current active skal laves ved siden af i main scss]
+ - container: navbar height 3em; menu fontsize 1em; margin top/bottom 0.75em; margin left/right 1.5em;
+   -menu item left/right margin 1em
+   -menu item right boarder 1px solid (light black or gray color)
 
 partial til footer
- - skal inholde mixin med scss styling [refere til designe guide på footer]
+ - skal inholde mixin med scss styling
+ - font size 1em
+ - text color (black)
+ - middot left/right margin 0.75em
+ - link style default
+ - boarder top 1px solid (light black or gray color)
 
-partial til event info
+partial til event info card 
  - skal indholde mixin med scss styling
- - der skal laves  mixin for de for skellig elementer og sections
+ - border color (gray or lgiht black)
+ - border style solid
+ - padding 20px
 
 partial til IOT icons
- - skal inholde mixin med scss styling
+   - skal inholde mixin med scss styling
+  title:
+   - font color (black)
+   - margin bottom 1em
+
+partiel til eventinfo styling
+   billed text
+     - fontsize 1.5em
+     - max widt 100%
+     - height auto
+   subject text
+     - fontsize 1em
+   info text
+     - fontsize 0.5 em
+     - max width 45%
+   speaker billed
+     - max widt 45%
+
+partial info box
+   call to action button
+     - font size 1em
+     - padding left,right 1em
+     - padding top, bottom 0.25em
+     - border radius 20px
+     - background color $T-orange-80
+     - text color $P-white
+  
+partial nyheds box
+   headline
+     - text color (black)
+     - font size 1em
+   body text
+     - text color (black)
+     - font size 0.5em   
+ 
+partial form
+   - skal inholde mixin med scss styling
+   labels
+     - text color (black)
+     - font size 1em
+   text input fields
+     - background color (white)
+     - border color (gray)
+     - border style solidborder widt 1px
+     - border radius 20px
+   placeholder text
+      unfocused
+        - text color (dark gray)
+      focused
+        - text color (black)
+        - border color (dark gray)
+
+
+brug af farver
+   - refere til design guiden color wheel
 
 sizeing af elementer og placering
    - er op til den der laver siden med mindre andet står i design guiden
 
-brug af farver
-   - refere til design guiden 
-
-landing page 
-  info box
-   - skal ha et bg billed af øksnehaller
-   - skal ha en call ot action knap [ skal ha teksten: TILMELD] skal styles ifølge design guiden på navigation
-  
-  nyheds box
-   - skal ha 8 nyheder der skal være 4 på hver linje
-   - skal ha givet font ifølge design guiden
- 
-  interest form
-   - inputs skal styles ifølge design guiden på forms
-   - button skal styles ifølge design guiden på forms
-   - skal tilgives en font baseret på design guiden på font
-
-  IOT icons links
-   - skal styles så de er centered og tager op lige meget plads
-
-program
- IOT talk img
-   - skal styles så der de 2 rows kan lige side om side
-   - de skal tage op lige meget plads
-
-partiel til eventinfo styling
-   - font baseret på design guiden
-   - placering: billed med headline skal være øverst og under den skal subject texten kom: der uder skal info text om speakern og billed af speakeren ligge side om side
- 
