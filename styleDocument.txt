@@ -1,15 +1,15 @@
 partial til farver
- - skal indholde alle farver fra design guide
+ - skal indholde alle farver fra design guide [refere til design guide på farver]
  - skal navn gives så det er nemt at skelne mellem core, tints ect
 
 partial til fonts
- - skal indholde mixin til at importer de forskellig fonts
- 
+ - skal indholde mixin til at importer de forskellig fonts [refere til design guide på fonts]
+
 partial til nav
- - skal indholde mixin med scss styling [current active skal laves ved siden af i main scss]
+ - skal indholde mixin med scss styling [current active skal laves ved siden af i main scss] [refere til design guide på navigation]
 
 partial til footer
- - skal inholde mixin med scss styling 
+ - skal inholde mixin med scss styling [refere til designe guide på footer]
 
 partial til event info
  - skal indholde mixin med scss styling
@@ -17,3 +17,36 @@ partial til event info
 
 partial til IOT icons
  - skal inholde mixin med scss styling
+
+sizeing af elementer og placering
+   - er op til den der laver siden med mindre andet står
+
+brug af farver
+   - refere til design guiden 
+
+landing page 
+  info box
+   - skal ha et bg billed af øksnehaller
+   - skal ha en call ot action knap [ skal ha teksten: TILMELD] skal styles ifølge design guiden på navigation
+  
+  nyheds box
+   - skal ha 8 nyheder der skal være 4 på hver linje
+   - skal ha givet font ifølge design guiden
+ 
+  interest form
+   - inputs skal styles ifølge design guiden på forms
+   - button skal styles ifølge design guiden på forms
+   - skal tilgives en font baseret på design guiden på font
+
+  IOT icons links
+   - skal styles så de er centered og tager op lige meget plads
+
+program
+ IOT talk img
+   - skal styles så der de 2 rows kan lige side om side
+   - de skal tage op lige meget plads
+
+partiel til eventinfo styling
+   - font baseret på design guiden
+   - placering: billed med headline skal være øverst og under den skal subject texten kom: der uder skal info text om speakern og billed af speakeren ligge side om side
+ 
