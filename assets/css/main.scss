@@ -1,0 +1,10 @@
+@use 'colors' as s;
+@use 'fonts';
+@use 'nav';
+
+// font-family: 'Ubuntu Mono', monospace;
+// font-family: 'Ubuntu Condensed', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+nav{
+@include mainNav;
+}

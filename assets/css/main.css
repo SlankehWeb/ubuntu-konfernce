@@ -1,0 +1,25 @@
+nav {
+  height: 3em;
+  font-size: 1em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul #logo {
+  background-color: #E95420;
+  color: #FFFFFF;
+  padding: 1em;
+}
+nav ul li {
+  display: inline;
+  margin-left: 1em;
+  border-right: 1px solid #AEA79F;
+  color: #000000;
+  text-decoration: none;
+}
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

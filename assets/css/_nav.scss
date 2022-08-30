@@ -1,0 +1,27 @@
+@mixin mainNav{
+    height: 3em;
+    font-size: 1em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    ul{
+        #logo{
+            background-color: s.$P-orange;
+            color: s.$P-white;
+            padding: 1em;
+        }
+        li{
+            display: inline;
+            margin-left: 1em;
+            border-right: 1px solid s.$N-warm-grey;
+            color: s.$P-black;
+            text-decoration: none;
+            a{
+                color: s.$P-black;
+                text-decoration: none;
+            }
+        }
+    }
+}
