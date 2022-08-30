@@ -1,0 +1,20 @@
+@use 'colors' as s;
+@mixin mainInfoBox{
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    button{
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        font-size: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        border-radius: 20px;
+        background-color: s.$T-orange-80;
+        color: s.$P-white;
+    }
+}

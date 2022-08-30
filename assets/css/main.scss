@@ -1,7 +1,7 @@
 @use 'colors' as s;
 @use 'fonts';
 @use 'nav';
-
+@use 'infobox';
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
@@ -10,7 +10,5 @@ nav{
 }
 
 #infoBox{
-    text-align: center;
-    max-width: 100%;
-    height: auto;
+@include infobox.mainInfoBox
 }
