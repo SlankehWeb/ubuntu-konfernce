@@ -34,7 +34,7 @@ partial til IOT icons
 partiel til eventinfo styling
    billed text
      - fontsize 1.5em
-     - max widt 100%
+     - max widt 80%
      - height auto
    subject text
      - fontsize 1em
