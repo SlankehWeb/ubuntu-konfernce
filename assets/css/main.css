@@ -118,4 +118,32 @@ footer .iconrows .footericons {
 }
 footer .iconrows .footericons img {
   max-width: 25%;
+}
+
+form {
+  padding: 3em;
+  background-color: #AEA79F;
+}
+form input {
+  margin-top: 2em;
+  padding: 0.5em;
+  position: relative;
+  left: 45%;
+  display: block;
+  border-radius: 20px;
+}
+form #name {
+  border: 1px solid #333333;
+}
+form #email {
+  border: 1px solid #333333;
+}
+form #submit {
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background-color: #ED764D;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
