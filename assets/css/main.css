@@ -167,4 +167,17 @@ form #submit {
 }
 #subjectText p {
   font-size: 1em;
+}
+
+#subspeaker {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#subspeaker .ISD {
+  flex: 33.33%;
+  padding: 5px;
+}
+#subspeaker .ISD img {
+  max-width: 100%;
 }/*# sourceMappingURL=main.css.map */
