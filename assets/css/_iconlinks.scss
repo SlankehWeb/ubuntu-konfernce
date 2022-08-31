@@ -1,0 +1,20 @@
+@use 'colors' as s;
+
+@mixin iconLinks {
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    .icons{
+        flex: 33.33%;
+        padding: 5px;
+        img{
+            max-width: 50%;
+        }
+        h2{
+          color: s.$P-black;
+        }
+    }
+}

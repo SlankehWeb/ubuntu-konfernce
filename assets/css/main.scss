@@ -3,6 +3,7 @@
 @use 'nav';
 @use 'infobox';
 @use 'interestform';
+@use 'iconlinks';
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
@@ -21,20 +22,5 @@ nav{
 }
 
 #iconLinks{
-    display: flex;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 3em;
-    padding-bottom: 2em;
-    .icons{
-        flex: 33.33%;
-        padding: 5px;
-        img{
-            max-width: 50%;
-        }
-        h2{
-          color: s.$P-black;
-        }
-    }
+@include iconlinks.iconLinks;
 }
