@@ -70,4 +70,23 @@ nav ul li a {
   padding-bottom: 0.25em;
   background-color: #ED764D;
   color: #FFFFFF;
+}
+
+#iconLinks {
+  display: flex;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+#iconLinks .icons {
+  flex: 33.33%;
+  padding: 5px;
+}
+#iconLinks .icons img {
+  max-width: 50%;
+}
+#iconLinks .icons h2 {
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
