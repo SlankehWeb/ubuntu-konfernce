@@ -6,6 +6,8 @@
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
+
+// landing page
 nav{
 @include nav.mainNav;
 }
@@ -16,4 +18,8 @@ nav{
 
 #interestForm{
 @include interestform.interestForm;
+}
+
+#iconLinks{
+
 }
