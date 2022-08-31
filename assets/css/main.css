@@ -162,6 +162,8 @@ form #submit {
 
 #subjectText {
   text-align: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -173,6 +175,8 @@ form #submit {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 #subspeaker .ISD {
   flex: 33.33%;
