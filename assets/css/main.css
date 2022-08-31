@@ -147,4 +147,15 @@ form #submit {
   padding-bottom: 0.25em;
   background-color: #ED764D;
   color: #FFFFFF;
+}
+
+#eventHL {
+  text-align: center;
+}
+#eventHL h1 {
+  font-size: 1.5em;
+}
+#eventHL img {
+  max-width: 80%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
