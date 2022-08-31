@@ -1,0 +1,25 @@
+@use 'colors' as s;
+
+@mixin Footer {
+    border-top: 1px solid s.$N-cool-grey ;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    p{
+        text-align: left;
+        font-size: 1em;
+        color: s.$P-black;
+    }
+    .iconrows{
+        display: flex;
+        .footericons{
+            flex: 33.33%;
+            padding: 5px;
+            img{
+                max-width: 25%;
+            }
+        }
+    }
+}
