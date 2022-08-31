@@ -1,0 +1,28 @@
+@mixin interestForm {
+    padding: 3em;
+    background-color: s.$N-warm-grey;
+    input{
+        margin-top: 2em;
+        padding: 0.5em;
+        position: relative;
+        left: 45%;
+        display: block;
+        border-radius: 20px;
+    }
+    #name{
+        border: 1px solid s.$N-cool-grey;
+    }
+    #email{
+        
+        border: 1px solid s.$N-cool-grey;
+    }
+    #submit{
+        font-size: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: s.$T-orange-80;
+        color: s.$P-white;
+    }
+}
