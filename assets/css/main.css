@@ -121,6 +121,7 @@ footer .iconrows .footericons img {
 }
 
 form {
+  text-align: center;
   padding: 3em;
   background-color: #AEA79F;
 }
