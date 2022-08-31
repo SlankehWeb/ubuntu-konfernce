@@ -1,5 +1,6 @@
 @use 'colors' as s;
 @use 'fonts';
+@use 'reset';
 @use 'nav';
 @use 'infobox';
 @use 'interestform';
@@ -8,7 +9,9 @@
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
-
+*{
+@include reset.Reset;
+}
 // landing page
 nav{
 @include nav.mainNav;
