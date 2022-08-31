@@ -96,9 +96,21 @@ footer {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 footer p {
   text-align: left;
   font-size: 1em;
   color: #000000;
+}
+footer .iconrows {
+  display: flex;
+}
+footer .iconrows .footericons {
+  flex: 33.33%;
+  padding: 5px;
+}
+footer .iconrows .footericons img {
+  max-width: 25%;
 }/*# sourceMappingURL=main.css.map */
