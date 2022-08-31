@@ -24,3 +24,15 @@ nav{
 #iconLinks{
 @include iconlinks.iconLinks;
 }
+
+footer{
+    border-top: 1px solid s.$N-cool-grey ;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    p{
+        text-align: left;
+        font-size: 1em;
+        color: s.$P-black;
+    }
+}
