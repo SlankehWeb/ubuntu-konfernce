@@ -1,4 +1,5 @@
-@use 'colors';
+@use 'colors' as s;
+
 @mixin interestForm {
     padding: 3em;
     background-color: s.$N-warm-grey;
