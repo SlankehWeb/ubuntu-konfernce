@@ -14,8 +14,11 @@ nav{
 }
 
 #interestForm{
+    padding: 3em;
     background-color: s.$N-warm-grey;
     input{
+        margin-top: 2em;
+        padding: 0.5em;
         position: relative;
         left: 45%;
         display: block;
@@ -25,6 +28,7 @@ nav{
         border: 1px solid s.$N-cool-grey;
     }
     #email{
+        
         border: 1px solid s.$N-cool-grey;
     }
     #submit{

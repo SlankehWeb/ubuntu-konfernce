@@ -45,9 +45,12 @@ nav ul li a {
 }
 
 #interestForm {
+  padding: 3em;
   background-color: #AEA79F;
 }
 #interestForm input {
+  margin-top: 2em;
+  padding: 0.5em;
   position: relative;
   left: 45%;
   display: block;
