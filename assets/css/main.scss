@@ -8,6 +8,7 @@
 @use 'footer';
 @use 'form';
 @use 'eheadline';
+@use 'subjecttext';
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
@@ -47,14 +48,9 @@ form{
 // eventinfo 
 
 #eventHL{
-@include eheadline.eHeadline
+@include eheadline.eHeadline;
 }
 
 #subjectText{
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    p{
-        font-size: 1em;
-    }
+@include subjecttext.subjectText;
 }
