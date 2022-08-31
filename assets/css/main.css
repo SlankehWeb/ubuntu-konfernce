@@ -42,4 +42,18 @@ nav ul li a {
   border-radius: 20px;
   background-color: #ED764D;
   color: #FFFFFF;
+}
+
+#interestForm {
+  background-color: #AEA79F;
+}
+#interestForm #submit {
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 20px;
+  background-color: #ED764D;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
