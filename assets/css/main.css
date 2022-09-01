@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 }
 
 nav {
@@ -12,7 +13,7 @@ nav {
   font-size: 1em;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
 }
 nav ul #logo {
@@ -33,6 +34,7 @@ nav ul li a {
 }
 
 #infoBox {
+  background-color: #AEA79F;
   position: relative;
   text-align: center;
   max-width: 100%;
@@ -41,7 +43,7 @@ nav ul li a {
 #infoBox button {
   position: absolute;
   left: 45%;
-  top: 90%;
+  top: 50%;
   font-size: 1em;
   padding-left: 1em;
   padding-right: 1em;

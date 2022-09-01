@@ -19,7 +19,7 @@
 @include reset.Reset;
 }
 body{
-    font-family: 'Ubuntu', sans-serif;
+@include fonts.Font2;
 }
 
 // landing page
