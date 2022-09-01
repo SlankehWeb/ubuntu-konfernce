@@ -10,6 +10,7 @@
 @use 'eheadline';
 @use 'subjecttext';
 @use 'newsbox';
+@use 'subspeaker';
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
@@ -61,16 +62,5 @@ form{
 }
 
 #subspeaker{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    .ISD{
-        flex: 33.33%;
-        padding: 5px;
-        img{
-            max-width: 100%;
-        }
-    }
+@include subspeaker.subSpeaker;
 }

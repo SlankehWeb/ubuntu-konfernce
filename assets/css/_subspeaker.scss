@@ -1,0 +1,16 @@
+@use 'colors';
+
+@mixin subSpeaker {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    .ISD{
+        flex: 33.33%;
+        padding: 5px;
+        img{
+            max-width: 100%;
+        }
+    }
+}
