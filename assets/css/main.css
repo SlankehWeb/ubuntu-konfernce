@@ -171,6 +171,16 @@ form {
   padding: 3em;
   background-color: #AEA79F;
 }
+form .input-group span {
+  font-size: 14;
+  color: red;
+}
+form #subit-error {
+  color: red;
+}
+form .input-group span i {
+  color: green;
+}
 form input {
   margin-top: 2em;
   padding: 0.5em;

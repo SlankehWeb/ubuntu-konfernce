@@ -13,7 +13,7 @@ function validateEmail(){
         return false;
     }
     
-    emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    emailError.innerHTML = '<i class="fa-regular fa-check"></i>';
     return true;
 }
 

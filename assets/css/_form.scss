@@ -4,6 +4,16 @@
     text-align: center;
     padding: 3em;
     background-color: s.$N-warm-grey;
+    .input-group span{
+        font-size: 14;
+        color: red;
+    }
+    #subit-error{
+        color: red;
+    }
+    .input-group span i{
+        color: green;
+    }
     input{
         margin-top: 2em;
         padding: 0.5em;
