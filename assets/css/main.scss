@@ -69,3 +69,46 @@ form{
         }
     }
 }
+
+#newsbox{
+    text-align: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    #row1{
+        
+        flex: 33.33%;
+        padding: 5px;
+        h2{
+            position: relative;
+            bottom: 8em;
+            color: s.$P-white;
+        }
+        p{
+            position: relative;
+            bottom: 8em;
+            color: s.$P-white;
+        }
+        img{
+           
+            max-width: 80%;
+        }
+    }
+    #row2{
+        flex: 33.33%;
+        padding: 5px;
+        h2{
+            position: relative;
+            bottom: 8em;
+            color: s.$P-white;
+        }
+        p{
+            position: relative;
+            bottom: 8em;
+            color: s.$P-white;
+        }
+        img{
+            max-width: 80%;
+        }
+    }
+}
