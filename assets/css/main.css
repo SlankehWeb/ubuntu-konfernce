@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
 nav {
   height: 3em;
   font-size: 1em;

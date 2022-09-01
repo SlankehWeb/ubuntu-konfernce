@@ -18,6 +18,9 @@
 *{
 @include reset.Reset;
 }
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 
 // landing page
 nav{
