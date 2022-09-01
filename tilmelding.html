@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ubuntu</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="/assets/js/formvali.js" defer></script>
 </head>
 <body>
     <nav>
@@ -22,16 +23,19 @@
           </li>
         </ul>
       </nav>
-      <form>
+      <form action="#" onsubmit="yourJsFunction();return false">
         <h2>Tilmelding</h2>
         <input type="text" id="name" name="name" placeholder="Name" />
         <input type="text" id="adresse" name="adresse" placeholder="Adresse" />
-        <input type="email" id="email" name="email" placeholder="Mail" />
+      <div class="input-group">
+          <input type="email" placeholder="email" id="contact-email" onkeyup="validateEmail()">
+          <span id="email-error"></span>
+      </div>
       <div>
         <input type="checkbox" id="interesse" name="intresse" value="intresse">
-      </div>
-        <input type="submit" id="submit" />
         <label>intresse</label>
+      </div>
+        <input type="submit" id="submit" onclick="return validateForm()" />
       </form>
       <section id="iconLinks">
         <div class="icons">
