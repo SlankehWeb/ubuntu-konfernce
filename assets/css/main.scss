@@ -9,6 +9,7 @@
 @use 'form';
 @use 'eheadline';
 @use 'subjecttext';
+@use 'newsbox';
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
@@ -71,44 +72,5 @@ form{
 }
 
 #newsbox{
-    text-align: center;
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    #row1{
-        
-        flex: 33.33%;
-        padding: 5px;
-        h2{
-            position: relative;
-            bottom: 8em;
-            color: s.$P-white;
-        }
-        p{
-            position: relative;
-            bottom: 8em;
-            color: s.$P-white;
-        }
-        img{
-           
-            max-width: 80%;
-        }
-    }
-    #row2{
-        flex: 33.33%;
-        padding: 5px;
-        h2{
-            position: relative;
-            bottom: 8em;
-            color: s.$P-white;
-        }
-        p{
-            position: relative;
-            bottom: 8em;
-            color: s.$P-white;
-        }
-        img{
-            max-width: 80%;
-        }
-    }
+@include newsbox.newsBox;
 }
