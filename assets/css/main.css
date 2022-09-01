@@ -192,6 +192,11 @@ form #submit {
   background-color: #ED764D;
   color: #FFFFFF;
 }
+form label {
+  position: relative;
+  bottom: 4.8em;
+  font-size: 1em;
+}
 
 #eventHL {
   text-align: center;
