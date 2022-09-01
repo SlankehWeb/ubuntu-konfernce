@@ -205,12 +205,12 @@ form label {
   font-size: 1.5em;
 }
 #eventHL img {
-  max-width: 80%;
+  max-width: 25%;
   height: auto;
 }
 
 #subjectText {
-  text-align: left;
+  text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
   margin-left: 10%;
@@ -231,8 +231,15 @@ form label {
   flex: 33.33%;
   padding: 5px;
 }
+#subspeaker .ISD p {
+  margin-top: 30%;
+  margin-left: 10%;
+  text-align: center;
+  max-width: 70%;
+  font-size: 2em;
+}
 #subspeaker .ISD img {
-  max-width: 100%;
+  max-width: 60%;
 }
 
 #speaker {
