@@ -225,4 +225,45 @@ form #submit {
 }
 #subspeaker .ISD img {
   max-width: 100%;
+}
+
+#speaker {
+  text-align: center;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#speaker #row1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+#speaker #row1 h2 {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#speaker #row1 p {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#speaker #row1 img {
+  max-width: 100%;
+}
+#speaker #row2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+#speaker #row2 h2 {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#speaker #row2 p {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#speaker #row2 img {
+  max-width: 100%;
 }/*# sourceMappingURL=main.css.map */

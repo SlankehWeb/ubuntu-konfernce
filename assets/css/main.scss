@@ -11,6 +11,7 @@
 @use 'subjecttext';
 @use 'newsbox';
 @use 'subspeaker';
+@use 'speaker';
 // font-family: 'Ubuntu Mono', monospace;
 // font-family: 'Ubuntu Condensed', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
@@ -63,4 +64,10 @@ form{
 
 #subspeaker{
 @include subspeaker.subSpeaker;
+}
+
+
+//program
+#speaker{
+@include speaker.Speaker;
 }
