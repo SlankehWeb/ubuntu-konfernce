@@ -49,6 +49,47 @@ nav ul li a {
   color: #FFFFFF;
 }
 
+#newsbox {
+  text-align: center;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#newsbox #row1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+#newsbox #row1 h2 {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#newsbox #row1 p {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#newsbox #row1 img {
+  max-width: 80%;
+}
+#newsbox #row2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+#newsbox #row2 h2 {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#newsbox #row2 p {
+  position: relative;
+  bottom: 8em;
+  color: #FFFFFF;
+}
+#newsbox #row2 img {
+  max-width: 80%;
+}
+
 #interestForm {
   padding: 3em;
   background-color: #AEA79F;
@@ -184,45 +225,4 @@ form #submit {
 }
 #subspeaker .ISD img {
   max-width: 100%;
-}
-
-#newsbox {
-  text-align: center;
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-#newsbox #row1 {
-  flex: 33.33%;
-  padding: 5px;
-}
-#newsbox #row1 h2 {
-  position: relative;
-  bottom: 8em;
-  color: #FFFFFF;
-}
-#newsbox #row1 p {
-  position: relative;
-  bottom: 8em;
-  color: #FFFFFF;
-}
-#newsbox #row1 img {
-  max-width: 80%;
-}
-#newsbox #row2 {
-  flex: 33.33%;
-  padding: 5px;
-}
-#newsbox #row2 h2 {
-  position: relative;
-  bottom: 8em;
-  color: #FFFFFF;
-}
-#newsbox #row2 p {
-  position: relative;
-  bottom: 8em;
-  color: #FFFFFF;
-}
-#newsbox #row2 img {
-  max-width: 80%;
 }/*# sourceMappingURL=main.css.map */
